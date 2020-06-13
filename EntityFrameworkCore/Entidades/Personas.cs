@@ -7,6 +7,7 @@ namespace EntityFrameworkCore.Entidades
 {
     public class Personas
     {
+        //Creando Clase persona
         [Key]
         public int personaId { get; set; }
         public string nombre { get; set; }

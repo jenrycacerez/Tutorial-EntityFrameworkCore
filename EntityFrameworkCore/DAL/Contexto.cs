@@ -9,7 +9,7 @@ namespace EntityFrameworkCore.DAL
 {
     public class Contexto : DbContext
     {
-        
+        //Aqui se Colocan Las Entidades del Contexto de la Base de dato
             public DbSet<Estudiantes> Estudiantes { get; set; }
             public DbSet<Curso> Curso { get; set; }
             public DbSet<Personas> Personas { get; set; }

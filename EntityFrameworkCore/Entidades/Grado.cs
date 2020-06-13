@@ -7,6 +7,7 @@ namespace EntityFrameworkCore.Entidades
 {
     public class Grado
     {
+        //Creando clase grado
         [Key]
         public int GradoId { get; set; }
         public string NombreGrado { get; set; }

@@ -8,6 +8,7 @@ namespace EntityFrameworkCore.Entidades
     public class Estudiantes
     {
         [Key]
+        //Creando Clase estudiantes 
         public int EstudianteId { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }

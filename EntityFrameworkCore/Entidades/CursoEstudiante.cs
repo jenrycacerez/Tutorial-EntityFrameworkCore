@@ -7,6 +7,7 @@ namespace EntityFrameworkCore.Entidades
 {
     public class CursoEstudiante
     {
+        //Creando Clase Cusdo EStudiante
         [Key]
         public int EstcursoId { get; set; }
 

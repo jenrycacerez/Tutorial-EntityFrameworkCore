@@ -6,6 +6,7 @@ using System.Text;
 
 namespace EntityFrameworkCore.Entidades
 {
+    //Creando Clase Curso
     public class Curso
     {
         [Key]
